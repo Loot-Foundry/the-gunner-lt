@@ -1,0 +1,32 @@
+{
+    "name": "module-template",
+    "version": "0.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "watch": "npm-run-all --parallel watch:code watch:styles",
+        "styles": "postcss styles/*.postcss -d build/styles --ext css",
+        "extract": "node extract-packs.mjs",
+        "build": "node build.mjs && npm run styles",
+        "link": "node link.mjs",
+        "watch:code": "copy-and-watch --watch scripts/*.js build/scripts",
+        "watch:styles": "npm run styles -- -w"
+    },
+    "author": "MrVauxs",
+    "license": "ISC",
+    "devDependencies": {
+        "@foundryvtt/foundryvtt-cli": "^1.0.3",
+        "@types/prompts": "^2.4.9",
+        "autoprefixer": "^10.4.20",
+        "copy-and-watch": "^0.1.8",
+        "jsdom": "^25.0.1",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.49",
+        "postcss-cli": "^11.0.0",
+        "postcss-comment": "^2.0.0",
+        "postcss-import": "^16.1.0",
+        "postcss-nested": "^7.0.2",
+        "prompts": "^2.4.2",
+        "sugarss": "^5.0.0"
+    }
+}

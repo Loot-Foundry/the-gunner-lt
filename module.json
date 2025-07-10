@@ -1,0 +1,83 @@
+{
+	"id": "the-gunner-lt",
+	"title": "Loot Tavern's The Gunner",
+	"description": "Loot Tavern's Gunner class and its two free subclasses, the Deadeye and the Slugger.",
+	"version": "dev",
+  	"esmodules": [
+   		"game-mod.js"
+ 	],
+	"authors": [
+		{
+			"name": "MrVauxs",
+			"url": "https://mrvauxs.net/",
+			"discord": "vauxs",
+			"twitter": "@ThatVauxs",
+			"email": "mrvauxs@gmail.com",
+			"ko-fi": "MrVauxs",
+			"patreon": "MrVauxs"
+		},
+		{
+			"name": "Agginmad",
+			"url": "https://www.patreon.com/LootTavern",
+			"discord": ".aggi",
+			"twitter": "@loottavern",
+			"patreon": "LootTavern",
+			"reddit": "u/Agginmad"
+		},
+    		{
+     		 	"name": "William \"Shockwave\" Gadsden",
+    		  	"discord": "shock_wave.",
+    		 	"flags": {}
+    		}
+	],
+	"compatibility": {
+		"minimum": "12",
+		"verified": "13"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"minimum": "4"
+				}
+			}
+		]
+	},
+	"packs": [
+		{
+     			"name": "the-gunner",
+     			"label": "The Gunner",
+    		 	"path": "packs/the-gunner",
+     		 	"type": "Item",
+    		  	"system": "dnd5e",
+     		  	"flags": {}
+   		 }
+	],
+	"flags": {
+		"hotReload": {
+			"extensions": [
+				"css",
+				"json"
+			],
+			"paths": [
+				"styles"
+			]
+		},
+		"host": "https://loottavern.com/Foundry%20packs",
+		"path": "NEW/the-gunner-MNTsaY0JCj6xmNYshsQJ",
+		"hash": "MNTsaY0JCj6xmNYshsQJ"
+	},
+	"url": "https://loottavern.com/shop/",
+	"bugs": "https://github.com/Loot-Foundry/loot-tavern-content",
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/module-template/assets/setup.webp"
+		}
+	],
+	"manifest": "https://loottavern.com/Foundry%20packs/NEW/the-gunner-MNTsaY0JCj6xmNYshsQJ/module.json",
+	"download": "https://loottavern.com/Foundry%20packs/NEW/the-gunner-MNTsaY0JCj6xmNYshsQJ/module.zip"
+}
