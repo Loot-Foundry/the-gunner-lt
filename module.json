@@ -24,11 +24,11 @@
 			"patreon": "LootTavern",
 			"reddit": "u/Agginmad"
 		},
-    		{
-     		 	"name": "William \"Shockwave\" Gadsden",
-    		  	"discord": "shock_wave.",
-    		 	"flags": {}
-    		}
+		{
+			"name": "William \"Shockwave\" Gadsden",
+			"discord": "shock_wave.",
+			"flags": {}
+		}
 	],
 	"compatibility": {
 		"minimum": "12",
