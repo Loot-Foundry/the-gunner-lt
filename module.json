@@ -4,7 +4,7 @@
 	"description": "Loot Tavern's Gunner class and its two free subclasses, the Deadeye and the Slugger.",
 	"version": "dev",
   	"esmodules": [
-   		"game-mod.js"
+   		"scripts/game-mod.js"
  	],
 	"authors": [
 		{
